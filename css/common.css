@@ -1,0 +1,56 @@
+/*
+ * Estilos reutilizables
+ */
+
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	color: #EDE9E2;
+}
+
+/* Nav Bar */
+
+#navbar {
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	background-color: rgb(44, 62, 80);
+}
+
+#navbar ul{
+	margin-left: 0;
+	padding: 0;
+	overflow: hidden; 
+	list-style: none;
+}
+
+#navbar p{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+}
+
+li {
+	margin-right: 14px;
+    float: right;
+    padding: 10px;
+}
+
+li:hover{
+	background-color: rgb(24, 188, 156);
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 14px;
+    padding-right: 0px;
+    padding-left: 0;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,3 +1,113 @@
 /*
  * Estilos de tu proyecto
  */
+
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	color: #EDE9E2;
+}
+
+/* Nav Bar */
+
+#navbar {
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	background-color: rgb(44, 62, 80);
+}
+
+#navbar ul{
+	margin-left: 0;
+	padding: 0;
+	overflow: hidden; 
+	list-style: none;
+	margin-right:50px;
+}
+
+#navbar p{
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: 95px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li {
+	margin-right: 14px;
+    float: right;
+    padding: 10px;
+}
+
+li:hover{
+	background-color: rgb(24, 188, 156);
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 14px;
+    padding-right: 0px;
+    padding-left: 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+.header{
+	background-color: rgb(24, 188, 156);
+	width: 100%;
+	height: 700px;
+}
+
+.profile {
+	display: inline-block;
+	position: relative;
+	left: 24%;
+    top: 114px;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile h2{
+	padding-top: 32px;
+    font-size: 70px;
+}
+
+.fa-star{
+	width: 10px;
+    height: 10px;
+    margin-top: 18px;
+    color: white;
+}
+
+.profile p{
+	font-size: 22px;
+    margin-top: 37px;
+}
+
+/* PORTFOLIO */
+
+.portfolio h2{
+	color: rgb(44, 62, 80);
+	text-align: center;
+	margin-top: 20px;
+	margin-top: 90px;
+    font-size: 45px;
+}
+.portfolio i{
+	color: rgb(44, 62, 80);
+	align-self: center;
+}
+.portfolio img{
+	width: 70%;
+	margin-left: 7%;
+}

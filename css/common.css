@@ -2,55 +2,52 @@
  * Estilos reutilizables
  */
 
- * {
+*{
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
-	color: #EDE9E2;
 }
 
-/* Nav Bar */
-
-#navbar {
+.container{
 	width: 100%;
-	display: inline-block;
-	position: fixed;
-	background-size: cover;
-	background-position: center;
-	z-index: 1;
-	background-color: rgb(44, 62, 80);
+	max-width: 1200px;
+	margin: 0px auto;
 }
 
-#navbar ul{
-	margin-left: 0;
-	padding: 0;
-	overflow: hidden; 
-	list-style: none;
+.row:before , .row:before{
+	content: " ";
+	display: table;
 }
 
-#navbar p{
-	display: inline-block;
-	position: absolute;
-	top: 10px;
+.row:after{
+	clear: both;
 }
 
-li {
-	margin-right: 14px;
-    float: right;
-    padding: 10px;
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
 }
 
-li:hover{
-	background-color: rgb(24, 188, 156);
+.col-4{
+	/* (4 / 12) x 100 */
+	width: 33.333333%;
+	padding-top: 40px;
+    padding-left: 50px;
 }
 
-li a {
+.titulo {
+	position: relative;
     display: inline-block;
-    color: white;
-    padding: 14px;
-    padding-right: 0px;
-    padding-left: 0;
-    text-decoration: none;
+    left: 39%;
     text-align: center;
+}
+.titulo h2{
+	color: rgb(44, 62, 80);
+	text-align: center;
+    font-size: 45px;
+}
+.titulo i{
+	color: rgb(44, 62, 80);
+	align-self: center;
 }

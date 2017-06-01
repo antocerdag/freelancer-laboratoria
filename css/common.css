@@ -36,23 +36,6 @@
     padding-left: 50px;
 }
 
-.titulo {
-	position: relative;
-    display: inline-block;
-    left: 39%;
-    text-align: center;
-}
-.titulo h2{
-	color: rgb(44, 62, 80);
-	text-align: center;
-    font-size: 45px;
-    margin-top: 50px;
-}
-.titulo i{
-	color: rgb(44, 62, 80);
-	align-self: center;
-}
-
 .img-portfolio:hover{
 	background-color: rgba(24, 188, 156,0.5);
 }

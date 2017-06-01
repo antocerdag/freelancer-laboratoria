@@ -40,6 +40,19 @@
 	background-color: rgba(24, 188, 156,0.5);
 }
 
+.titulo {
+	position: relative;
+    display: inline-block;
+    left: 15%;
+    text-align: center;
+}
+
+.portfolio .titulo img{
+	    width: 29%;
+    position: relative;
+    left: -31px;
+}
+
 .footer{
 	text-align: center;
     margin-left: 1%;
@@ -48,6 +61,12 @@
 
 .footer h2{
 	margin-bottom: 20px;
+	font-size: 29px;
+}
+
+.footer p{
+	width: 102%;
+    font-size: 18px;
 }
 
 .footer img{

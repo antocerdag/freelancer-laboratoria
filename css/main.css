@@ -129,10 +129,10 @@ li a {
 .about{
 	background-color: rgb(24, 188, 156);
 	width: 100%;
-	height:390px;
+  height: 510px;
 	position: relative;
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 .about i{
@@ -152,7 +152,8 @@ li a {
   position: relative;
   margin-top: 32px;
   margin-right: 11px;
-  left: 17px;
+  left:10%;
+	font-size: 20px;
 }
 
 #parrafo2{
@@ -160,22 +161,39 @@ li a {
 	text-align: justify;
   display: inline-block;
   position: relative;
-  left: 2%;
+  left:10%;
+	font-size: 20px;
 }
 
-.about button{
+#download{
+	display: inline-block;
+	position: relative;
+  top: 92px;
+  left: -27%;
+  width: 20%;
+  height: 50px;
+  border-radius: 6px;
+  color: white;
+  box-shadow: none;
+  border-color: white;
+  background-color: rgb(24, 188, 156);
+  border: 2px solid #dcdcdc;
+  font-size: 20px;
+}
+
+#download:hover{
+	background-color: #299F7B;
+}
+
+#download p{
 	display: inline-block;
   position: relative;
-  top: 40px;
-  left: -27%;
-   width: 13%;
-    height: 28px;
-    border-radius: 6px;
-    color: white;
-    box-shadow: none;
-    border-color: white;
-    border-width: 4px;
-     background-color: rgb(24, 188, 156);
+
+}
+
+.fa-download {
+  left: -2%;
+  top: 1px;
 }
 
 /* CONTACT */
@@ -209,13 +227,17 @@ li a {
 	width: 100%;
 }
 
+.form input:focus{
+    outline: none;
+}
+
 .form hr{
 	margin-bottom: 18px;
 }
 
 .form button p {
 	text-align: center;
-	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
   color: #EDE9E2; 
 
@@ -233,4 +255,47 @@ li a {
 
 .form button:hover{
 	background-color: #299F7B;
+}
+/* FOOTER */
+
+footer{
+	background-color: rgb(44, 62, 80);
+	width: 100%;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+}
+
+.location{
+	width: 35%;
+  height: 100px;
+  
+}
+
+.web{
+	
+  width: 35%;
+  height: 100px;
+  text-align: center;
+}
+
+.freelance{
+
+    width: 35%;
+    height: 100px;
+    text-align: center;
+}
+
+.copy{
+	background: rgb(35, 49, 64);
+	width: 100%;
+	height:80px;
+	display: inline-block;
+	position: relative;
+	top: 73px;
+	text-align: center;
+}
+
+.copy p{
+	margin-top: 30px;
 }

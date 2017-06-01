@@ -39,3 +39,21 @@
 .img-portfolio:hover{
 	background-color: rgba(24, 188, 156,0.5);
 }
+
+.footer{
+	text-align: center;
+    margin-left: 1%;
+    width: 30%;
+}
+
+.footer h2{
+	margin-bottom: 20px;
+}
+
+.footer img{
+	width: 17%;
+}
+
+.footer img:hover{
+	cursor: pointer;
+}

@@ -64,3 +64,41 @@
 .footer img:hover{
 	cursor: pointer;
 }
+
+#portfolioimgs{
+	background-color: rgba(24, 188, 156,0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#portfolioimgs .modal-body{
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    z-index: 1;
+    
+}
+
+#portfolioimgs .modal-body img{
+	
+}
+
+#portfolioimgs .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#portfolioimgs .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}

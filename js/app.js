@@ -3,7 +3,7 @@
  */
 
 (function imgdisplay(){
-	var fotos = Array.from(document.getElementsByClassName("img-portfolio"));//tomo la clase de las imagenes
+	var fotos = Array.from(document.getElementsByClassName("imgportfolio"));//tomo la clase de las imagenes
 	var modal = document.getElementById("portfolioimgs");//lugar donde se va a mostrar
 	var bodyModal, close, img;
 
@@ -13,7 +13,7 @@
 			modal.innerHTML = "";
 			bodyModal = document.createElement("div");
 			bodyModal.classList.add("modal-body");
-			bodyModal.innerHTML = foto.innerHTML;			
+			bodyModal.innerHTML =  foto.outerHTML;
 			modal.appendChild(bodyModal);
 			modal.classList.remove("hide");
 			close = document.createElement("div");

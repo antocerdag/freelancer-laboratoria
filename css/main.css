@@ -109,6 +109,10 @@ li a {
 	margin-left: 7%;
 }
 
+.portfolio img:hover{
+	cursor: pointer;
+}
+
 .titulo {
 	position: relative;
     display: inline-block;

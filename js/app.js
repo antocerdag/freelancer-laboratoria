@@ -2,6 +2,14 @@
  * Archivo principal de JS
  */
 
+var downloadbtn = document.getElementById("download");
+
+downloadbtn.onclick = function(){
+	alert("Thank you for your download!");
+}
+
+
+/* VALIDACIÓN FORMULARIO */
 var inputname = document.getElementById("name");
 var inputemail = document.getElementById("email");
 var inputphone = document.getElementById("phonenumber");
